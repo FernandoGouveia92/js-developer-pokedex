@@ -10,6 +10,7 @@ function convertPokemonToLi(pokemon) {
         <li class="pokemon ${pokemon.type}">
             <span class="number">#${pokemon.number}</span>
             <span class="name">${pokemon.name}</span>
+            <h3 class="weight">Weight: ${pokemon.weight}</h3>
 
             <div class="detail">
                 <ol class="types">
@@ -44,4 +45,5 @@ loadMoreButton.addEventListener('click', () => {
     } else {
         loadPokemonItens(offset, limit)
     }
+
 })

@@ -99,6 +99,12 @@
     margin-bottom: .25rem;
 }
 
+.pokemon .weight {
+    text-transform: capitalize;
+    color: black;
+    margin-bottom: .25rem;
+}
+
 .pokemon .detail {
     display: flex;
     flex-direction: row;
@@ -134,6 +140,7 @@
     align-items: center;
     width: 100%;
     padding: 1rem;
+    cursor: pointer;
 }
 
 .pagination button {
@@ -144,6 +151,7 @@
     background-color: #6c79db;
     border: none;
     border-radius: 1rem;
+    cursor: pointer;
 }
 
 @media screen and (min-width: 380px) {
